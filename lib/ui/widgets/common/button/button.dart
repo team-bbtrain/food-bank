@@ -10,6 +10,7 @@ class AppButton extends StatelessWidget {
   final String label;
   final ButtonSize size;
   final ButtonState state;
+  // TODO: 더 나은 타입이 있을까
   final String? icon;
   final Color? iconColor;
   final VoidCallback? onPressed;
