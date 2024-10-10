@@ -39,4 +39,28 @@ class AppColors {
 
   // Semantic
   static const error = Color(0xffFD7563);
+
+  static const lightColorScheme = ColorScheme(
+    brightness: Brightness.light,
+    primary: AppColors.primaryOrange500,
+    onPrimary: AppColors.background50,
+    secondary: AppColors.secondaryBlue950,
+    onSecondary: AppColors.line50,
+    surface: AppColors.background200,
+    onSurface: AppColors.text400,
+    error: AppColors.error,
+    onError: AppColors.white,
+  );
+
+  static const darkColorScheme = ColorScheme(
+    brightness: Brightness.dark,
+    primary: AppColors.primaryOrange500,
+    onPrimary: AppColors.background50,
+    secondary: AppColors.secondaryBlue950,
+    onSecondary: AppColors.line50,
+    surface: AppColors.background200,
+    onSurface: AppColors.text400,
+    error: AppColors.error,
+    onError: AppColors.white,
+  );
 }
